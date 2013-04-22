@@ -1,0 +1,184 @@
+GIT
+  remote: git://github.com/rails-api/active_model_serializers.git
+  revision: 9eb2e281c655d65b1c3e94b2a49c5bb4f158f2a4
+  specs:
+    active_model_serializers (0.7.0)
+      activemodel (>= 3.0)
+
+GIT
+  remote: git://github.com/rails-api/rails-api.git
+  revision: cf40b31f1427fc6a9fe21ad6a3e813741965da9d
+  specs:
+    rails-api (0.1.0)
+      actionpack (>= 3.2.11)
+      railties (>= 3.2.11)
+      tzinfo (~> 0.3.31)
+
+GIT
+  remote: git://github.com/rails/activerecord-deprecated_finders.git
+  revision: 5ed930cfb6bbfa71284d3e81b3bde8dbf78d8093
+  specs:
+    activerecord-deprecated_finders (1.0.1)
+
+GIT
+  remote: git://github.com/rails/arel.git
+  revision: 3ef63ac5366000b232ca5fe0848de9db9a3c1f9a
+  specs:
+    arel (4.0.0.20130418133826)
+
+GIT
+  remote: git://github.com/rails/coffee-rails.git
+  revision: 78d4d7ac5baf4e76a6717f303f51b505c40b9770
+  specs:
+    coffee-rails (4.0.0)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0.beta, < 5.0)
+
+GIT
+  remote: git://github.com/rails/rails.git
+  revision: 0400a7ff574f83f2f5d5c3f7d7569bfb37963dda
+  specs:
+    actionmailer (4.0.0.beta1)
+      actionpack (= 4.0.0.beta1)
+      mail (~> 2.5.3)
+    actionpack (4.0.0.beta1)
+      activesupport (= 4.0.0.beta1)
+      builder (~> 3.1.0)
+      erubis (~> 2.7.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    activemodel (4.0.0.beta1)
+      activesupport (= 4.0.0.beta1)
+      builder (~> 3.1.0)
+    activerecord (4.0.0.beta1)
+      activemodel (= 4.0.0.beta1)
+      activerecord-deprecated_finders (~> 1.0.1)
+      activesupport (= 4.0.0.beta1)
+      arel (~> 4.0.0)
+    activesupport (4.0.0.beta1)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    rails (4.0.0.beta1)
+      actionmailer (= 4.0.0.beta1)
+      actionpack (= 4.0.0.beta1)
+      activerecord (= 4.0.0.beta1)
+      activesupport (= 4.0.0.beta1)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.0.0.beta1)
+      sprockets-rails (~> 2.0.0.rc4)
+    railties (4.0.0.beta1)
+      actionpack (= 4.0.0.beta1)
+      activesupport (= 4.0.0.beta1)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+
+GIT
+  remote: git://github.com/rails/sass-rails.git
+  revision: 2d812b5f87929d62dde1748ebf531eea0cd77959
+  specs:
+    sass-rails (4.0.0.rc1)
+      railties (>= 4.0.0.beta, < 5.0)
+      sass (>= 3.1.10)
+      sprockets-rails (~> 2.0.0.rc4)
+
+GIT
+  remote: git://github.com/rails/sprockets-rails.git
+  revision: bbf755e8b3aaea4105d05a01d2e115ef30ccc6c7
+  specs:
+    sprockets-rails (2.0.0.rc4)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (~> 2.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    atomic (1.1.8)
+    builder (3.1.4)
+    capistrano (2.14.2)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
+    erubis (2.7.0)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    friendly_id (4.0.9)
+    geocoder (1.1.7)
+    highline (1.6.18)
+    hike (1.2.2)
+    i18n (0.6.4)
+    jquery-rails (2.2.1)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    kgio (2.8.0)
+    mail (2.5.3)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.22)
+    minitest (4.7.2)
+    multi_json (1.7.2)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.7)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    pg (0.15.1)
+    polyglot (0.3.3)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    raindrops (0.11.0)
+    rake (10.0.4)
+    sass (3.2.7)
+    sprockets (2.9.2)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    thor (0.18.1)
+    thread_safe (0.1.0)
+      atomic
+    tilt (1.3.7)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.37)
+    uglifier (2.0.1)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    unicorn (4.6.2)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active_model_serializers!
+  activerecord-deprecated_finders!
+  arel!
+  capistrano
+  coffee-rails!
+  friendly_id (~> 4.0.9)
+  geocoder
+  jquery-rails
+  pg
+  rails!
+  rails-api!
+  sass-rails!
+  sprockets-rails!
+  uglifier (>= 1.0.3)
+  unicorn

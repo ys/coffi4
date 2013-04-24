@@ -1,6 +1,9 @@
 class Place < ActiveRecord::Base
   extend FriendlyId
-  has_many :passwords
+
+  belongs_to :creator, class_name: 'User'
+  has_many :passwords, inverse_of: :place
+  has_many :notes,     inverse_of: :place
 
   validates :name, presence: true
 
@@ -31,5 +34,9 @@ class Place < ActiveRecord::Base
 
   def has_coordinates?
     latitude && longitude
+  end
+
+  def note
+    notes.to_a.sum(&:value).to_f / notes.count
   end
 end

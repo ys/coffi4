@@ -8,8 +8,9 @@ gem 'rails-api', github: 'rails-api/rails-api'
 gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
 
 gem 'pg'
+gem 'foreigner'
 gem 'geocoder'
-gem 'friendly_id', '~> 4.0.9'
+gem 'friendly_id', git: 'git://github.com/FriendlyId/friendly_id.git', branch: 'rails4'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -33,7 +34,7 @@ gem 'jquery-rails'
 # gem 'jbuilder', '~> 1.0.1'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 gem 'unicorn'
@@ -43,3 +44,7 @@ gem 'capistrano', group: :development
 
 # To use debugger
 # gem 'debugger'
+#
+group :test do
+  gem 'database_cleaner'
+end

@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/FriendlyId/friendly_id.git
+  revision: 903f2fac79774edb119a7f6baa2396ab7c555d47
+  branch: rails4
+  specs:
+    friendly_id (4.1.0.beta.2)
+
+GIT
   remote: git://github.com/rails-api/active_model_serializers.git
   revision: 9eb2e281c655d65b1c3e94b2a49c5bb4f158f2a4
   specs:
@@ -97,6 +104,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     atomic (1.1.8)
+    bcrypt-ruby (3.0.1)
     builder (3.1.4)
     capistrano (2.14.2)
       highline
@@ -108,10 +116,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    database_cleaner (0.9.1)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    friendly_id (4.0.9)
+    foreigner (1.4.1)
+      activerecord (>= 3.0.0)
     geocoder (1.1.7)
     highline (1.6.18)
     hike (1.2.2)
@@ -170,9 +180,12 @@ DEPENDENCIES
   active_model_serializers!
   activerecord-deprecated_finders!
   arel!
+  bcrypt-ruby (~> 3.0.0)
   capistrano
   coffee-rails!
-  friendly_id (~> 4.0.9)
+  database_cleaner
+  foreigner
+  friendly_id!
   geocoder
   jquery-rails
   pg

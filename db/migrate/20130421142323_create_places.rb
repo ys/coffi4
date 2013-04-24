@@ -10,6 +10,8 @@ class CreatePlaces < ActiveRecord::Migration
       t.boolean :wifi, default: false
       t.float :latitude
       t.float :longitude
+      t.integer :creator_id, index: true
+      t.foreign_key :users, column: :creator_id
 
       t.timestamps
     end

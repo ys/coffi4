@@ -1,5 +1,7 @@
 class Place < ActiveRecord::Base
+  include ActiveModel::ForbiddenAttributesProtection
   extend FriendlyId
+
 
   belongs_to :creator, class_name: 'User'
   has_many :passwords, inverse_of: :place

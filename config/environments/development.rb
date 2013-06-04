@@ -24,4 +24,14 @@ Coffi4::Application.configure do
 
   # Debug mode disables concatenation and preprocessing of assets.
   config.assets.debug = true
+
+  [ApplicationController, ActionController::Base, ActionView::TestCase::TestController, ActionDispatch::Routing::RouteSet].each do |klass|
+   klass.class_eval do
+     def default_url_options(options = {})
+       {
+         host: 'localhost:3000'
+       }.merge(options)
+     end
+   end
+end
 end

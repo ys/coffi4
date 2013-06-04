@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails',     github: 'rails/rails'
-gem 'arel',      github: 'rails/arel'
+gem 'rails', '>= 4.0.0.rc1'
+gem 'arel',  github: 'rails/arel'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'rails-api', github: 'rails-api/rails-api'
-gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
+gem 'roar-rails'
 
 gem 'pg'
 gem 'foreigner'
